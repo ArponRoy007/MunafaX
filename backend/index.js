@@ -23,6 +23,7 @@ const url = process.env.MONGO_URL;
 
 const app = express();
 
+//connect mongo
 mongoose
   .connect(url)
   .then(() => {
