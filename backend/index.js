@@ -33,6 +33,7 @@ mongoose
     console.error("❌ MongoDB Connection Error:", err);
   });
 
+//for take the data
 app.use(cors());
 app.use(bodyParser.json());
 
