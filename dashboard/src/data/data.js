@@ -48,7 +48,7 @@ export const watchlist = [
       isDown: false,
     },
     {
-      name: "HUL",
+      name: "HINDUNILVR",
       price: 512.4,
       percent: "1.04%",
       isDown: false,
