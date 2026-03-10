@@ -31,7 +31,7 @@ function Signup() {
     e.preventDefault();
 
     try {
-      const res = await axios.post("http://localhost:3002/signup", formData);
+      const res = await axios.post("https://munafax-api-by-roy.onrender.com/signup", formData);
 
       // Save authentication data to the Frontend's localStorage
       localStorage.setItem("token", res.data.token);

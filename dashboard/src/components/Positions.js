@@ -9,7 +9,7 @@ const Positions = () => {
   // Commented out the API call until the Express backend is ready
   
   useEffect(() => {
-    axios.get("http://localhost:3002/allPositions").then((res) => {
+    axios.get("https://munafax-api-by-roy.onrender.com/allPositions").then((res) => {
       setAllPositions(res.data);
     });
   }, []);

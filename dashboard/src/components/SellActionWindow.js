@@ -13,7 +13,7 @@ const SellActionWindow = ({ uid }) => {
 
   const handleSellClick = async () => {
     try {
-      await axios.post("http://localhost:3002/sellOrder", {
+      await axios.post("https://munafax-api-by-roy.onrender.com/sellOrder", {
         name: uid,
         qty: stockQuantity,
         price: stockPrice,

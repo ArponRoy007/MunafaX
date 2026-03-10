@@ -31,7 +31,7 @@ const Menu = () => {
       
       // Now this will successfully find the email!
       if (email) {
-        await axios.post("http://localhost:3002/deleteUser", {
+        await axios.post("https://munafax-api-by-roy.onrender.com/deleteUser", {
           email: email
         });
       }

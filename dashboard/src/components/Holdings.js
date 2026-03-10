@@ -8,7 +8,7 @@ const Holdings = () => {
   // Commented out the API call until the Express backend is ready
   
   useEffect(() => {
-    axios.get("http://localhost:3002/allHoldings").then((res) => {
+    axios.get("https://munafax-api-by-roy.onrender.com/allHoldings").then((res) => {
       setAllHoldings(res.data);
     });
   }, []);

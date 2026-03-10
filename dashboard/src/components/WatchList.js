@@ -82,7 +82,7 @@ const WatchListItem = ({ stock }) => {
   useEffect(() => {
     const fetchLivePrice = async () => {
       try {
-        const res = await axios.get(`http://localhost:3002/livePrice/${stock.name}`);
+        const res = await axios.get(`https://munafax-api-by-roy.onrender.com/livePrice/${stock.name}`);
         if (res.data && res.data.price) {
           setLivePrice(res.data.price.toFixed(2));
         }
