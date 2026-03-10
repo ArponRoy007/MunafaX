@@ -39,7 +39,7 @@ const Menu = () => {
       localStorage.removeItem("token");
       localStorage.removeItem("email");
 
-      window.location.href = "http://localhost:3001/signup";
+      window.location.href = "https://munafax-frontend-by-roy.onrender.com/signup";
 
     } catch (error) {
       console.error("Logout error:", error);
