@@ -38,7 +38,7 @@ function Signup() {
       localStorage.setItem("email", formData.email);
 
       // ✅ FIX: Send the email and token in the URL to the Dashboard
-      window.location.href = `http://localhost:3000/?email=${formData.email}&token=${res.data.token}`;
+      window.location.href = `https://munafax-dashboard-by-roy.onrender.com/?email=${formData.email}&token=${res.data.token}`;
       
     } catch (error) {
       console.error("Signup failed:", error);
@@ -110,7 +110,7 @@ function Signup() {
                 fontSize: "0.9rem",
               }}
             >
-              Already have an account? Sign In
+              Create account and when you Logout our data will be Deleted.
             </Link>
           </Box>
         </Box>
